@@ -134,6 +134,7 @@ public class MainActivity extends AppCompatActivity {
         adb3.setTitle("Third");
         adb3.setMessage("Hey! lets keep going again!");
         adb3.setIcon(R.drawable.brazil);
+        adb3.setCancelable(false);
         adb3.setPositiveButton("OK", new  DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int which) {
@@ -155,6 +156,7 @@ public class MainActivity extends AppCompatActivity {
         adb4.setTitle("Fourth");
         adb4.setMessage("Hey! change the screen color if u want!!");
         adb4.setIcon(R.drawable.brazil);
+        adb4.setCancelable(false);
         adb4.setPositiveButton("COLOR", new  DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int which) {
@@ -186,6 +188,7 @@ public class MainActivity extends AppCompatActivity {
         adb5.setTitle("Last");
         adb5.setMessage("Hey! change the screen color if u want and now u can reset it!!");
         adb5.setIcon(R.drawable.brazil);
+        adb5.setCancelable(false);
         adb5.setPositiveButton("COLOR", new  DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int which) {
